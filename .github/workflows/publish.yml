@@ -18,7 +18,6 @@ jobs:
         with:
           node-version: '24'              # ships npm 11.5.1+ (OIDC requirement)
           registry-url: 'https://registry.npmjs.org'
-          package-manager-cache: false     # clean install for reproducible releases
       - run: npm ci
       - run: npm publish --provenance --access public
         # No NODE_AUTH_TOKEN: its absence triggers OIDC trusted publishing.
