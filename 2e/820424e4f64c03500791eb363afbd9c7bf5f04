@@ -1,0 +1,19 @@
+.github/workflows/publish.yml
+  s_2c7c74184c78f2::t_1668765128b58d 1-23
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "2e820424e4f64c03500791eb363afbd9c7bf5f04",
+  "prompts": {},
+  "sessions": {
+    "s_2c7c74184c78f2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_01db9ba5bffeQNb6GdfuLMnf01",
+        "model": "glm-5.2"
+      },
+      "human_author": "Eric Ma <ericmajinglong@gmail.com>"
+    }
+  }
+}
