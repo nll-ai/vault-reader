@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Vault" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/icon-192.png" />
+  <title>Vault Reader</title>
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar: note navigation, folders, search -->
+    <aside id="sidebar" class="sidebar" aria-label="Note navigation">
+      <div class="sidebar-header">
+        <input type="search" id="search-input" placeholder="Search notes…" autocomplete="off" />
+      </div>
+      <nav id="note-list" class="note-list" aria-label="All notes"></nav>
+    </aside>
+    <div id="sidebar-backdrop" class="sidebar-backdrop" hidden></div>
+
+    <!-- Reader -->
+    <main id="reader" class="reader">
+      <div id="reader-viewport" class="reader-viewport">
+        <div id="reader-flow" class="reader-flow"></div>
+      </div>
+      <!-- invisible tap zones for page turning -->
+      <div class="tap-zones" id="tap-zones">
+        <div class="tap-zone tap-prev" data-action="prev"></div>
+        <div class="tap-zone tap-center" data-action="center"></div>
+        <div class="tap-zone tap-next" data-action="next"></div>
+      </div>
+    </main>
+
+    <!-- top chrome (auto-hides) -->
+    <header id="topbar" class="topbar">
+      <button id="menu-btn" class="icon-btn" aria-label="Open menu">☰</button>
+      <span id="note-title" class="topbar-title"></span>
+      <button id="settings-btn" class="icon-btn" aria-label="Settings">Aa</button>
+    </header>
+
+    <!-- page indicator -->
+    <div id="page-indicator" class="page-indicator" aria-live="polite"></div>
+
+    <!-- settings panel -->
+    <div id="settings-panel" class="settings-panel" hidden>
+      <div class="settings-row">
+        <label for="font-size">Font size <span id="font-size-val"></span></label>
+        <input type="range" id="font-size" min="14" max="28" step="1" />
+      </div>
+      <div class="settings-row">
+        <label for="font-family">Font</label>
+        <select id="font-family">
+          <option value="serif">Serif</option>
+          <option value="sans">Sans</option>
+        </select>
+      </div>
+      <div class="settings-row">
+        <label for="theme">Theme</label>
+        <select id="theme">
+          <option value="light">Light</option>
+          <option value="sepia">Sepia</option>
+          <option value="dark">Dark</option>
+        </select>
+      </div>
+      <div class="settings-row">
+        <label for="animated">Page animations</label>
+        <input type="checkbox" id="animated" />
+      </div>
+      <div class="settings-row">
+        <span class="settings-hint">Tip: on Boox, set this app's volume buttons to "Page-turning" in Settings.</span>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
