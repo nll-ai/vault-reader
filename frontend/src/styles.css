@@ -322,6 +322,18 @@ body {
 .settings-row + .settings-row { border-top: 1px solid var(--rule); }
 .settings-row label { display: flex; flex-direction: column; gap: 2px; }
 .settings-row input[type="range"] { width: 110px; }
+.stepper { display: flex; gap: 6px; }
+.stepper-btn {
+  width: 36px; height: 36px;
+  font-size: 20px; line-height: 1;
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--fg);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+.stepper-btn:active { background: var(--tap-hint); }
 .settings-row select {
   background: var(--sidebar-bg); color: var(--fg);
   border: 1px solid var(--rule); border-radius: 6px; padding: 5px 8px;

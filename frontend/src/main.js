@@ -111,23 +111,28 @@ function toggleChrome() {
 }
 
 function wireSettings() {
-  const fontSize = $('#font-size');
+  const fontDec = $('#font-dec');
+  const fontInc = $('#font-inc');
   const fontFamily = $('#font-family');
   const theme = $('#theme');
   const animated = $('#animated');
 
-  fontSize.value = store.data.fontSize;
   fontFamily.value = store.data.fontFamily;
   theme.value = store.data.theme;
   animated.checked = store.data.animated;
   $('#font-size-val').textContent = store.data.fontSize + 'px';
 
-  fontSize.addEventListener('input', () => {
-    $('#font-size-val').textContent = fontSize.value + 'px';
-    store.set('fontSize', +fontSize.value);
+  const changeFontSize = (delta) => {
+    const next = Math.max(14, Math.min(28, store.data.fontSize + delta));
+    if (next === store.data.fontSize) return;
+    store.set('fontSize', next);
+    $('#font-size-val').textContent = next + 'px';
     applySettings();
     reader.paginate();
-  });
+  };
+
+  fontDec.addEventListener('click', () => changeFontSize(-1));
+  fontInc.addEventListener('click', () => changeFontSize(1));
   fontFamily.addEventListener('change', () => {
     store.set('fontFamily', fontFamily.value);
     applySettings();

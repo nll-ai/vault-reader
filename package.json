@@ -1,6 +1,6 @@
 {
   "name": "vault-reader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Paginated, EPUB-style web reader for Obsidian vaults. Works on e-ink (Boox) and iPhone.",
   "type": "module",
   "license": "MIT",
@@ -9,7 +9,15 @@
     "type": "git",
     "url": "https://github.com/nll-ai/vault-reader.git"
   },
-  "keywords": ["obsidian", "vault", "reader", "epub", "e-ink", "paginated", "pwa"],
+  "keywords": [
+    "obsidian",
+    "vault",
+    "reader",
+    "epub",
+    "e-ink",
+    "paginated",
+    "pwa"
+  ],
   "bin": {
     "vault-reader": "./cli.mjs"
   },

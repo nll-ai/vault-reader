@@ -48,8 +48,11 @@
     <!-- settings panel -->
     <div id="settings-panel" class="settings-panel" hidden>
       <div class="settings-row">
-        <label for="font-size">Font size <span id="font-size-val"></span></label>
-        <input type="range" id="font-size" min="14" max="28" step="1" />
+        <span>Font size <span id="font-size-val"></span></span>
+        <div class="stepper">
+          <button id="font-dec" class="stepper-btn" aria-label="Decrease font size">−</button>
+          <button id="font-inc" class="stepper-btn" aria-label="Increase font size">+</button>
+        </div>
       </div>
       <div class="settings-row">
         <label for="font-family">Font</label>
