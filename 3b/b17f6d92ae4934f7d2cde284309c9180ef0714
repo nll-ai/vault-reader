@@ -1,0 +1,41 @@
+docs/adr/0006-single-npm-package-triple-export.md
+  s_2c7c74184c78f2::t_ce03aacea5f54d 1-43
+docs/adr/0002-vanilla-js-no-framework.md
+  s_2c7c74184c78f2::t_46e3e6e6928fd6 1-30
+frontend/index.html
+  s_2c7c74184c78f2::t_dda80d25e4c954 51-55
+docs/architecture.md
+  s_2c7c74184c78f2::t_45544f9c90ee54 1-142
+docs/adr/0004-vite-dev-plugin-live-serving.md
+  s_2c7c74184c78f2::t_2945e804e05dfd 1-31
+docs/adr/0005-base-path-hosting.md
+  s_2c7c74184c78f2::t_c3cdf4b4ada1f3 1-35
+frontend/src/styles.css
+  s_2c7c74184c78f2::t_f7342c11beb813 325-336
+docs/adr/0003-one-note-per-paginated-unit.md
+  s_2c7c74184c78f2::t_b8f1fff9dcbb80 1-31
+docs/adr/0001-css-multi-column-pagination.md
+  s_2c7c74184c78f2::t_0f4e619eaf707a 1-34
+CONTEXT.md
+  s_2c7c74184c78f2::t_dcfec947bfbc2e 1-58
+frontend/src/main.js
+  s_2c7c74184c78f2::t_7b90b2d1504aa4 114-115,125-129,132-135
+docs/design-principles.md
+  s_2c7c74184c78f2::t_c0b626526dd117 1-67
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "3bb17f6d92ae4934f7d2cde284309c9180ef0714",
+  "prompts": {},
+  "sessions": {
+    "s_2c7c74184c78f2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_01db9ba5bffeQNb6GdfuLMnf01",
+        "model": "glm-5.2"
+      },
+      "human_author": "Eric Ma <ericmajinglong@gmail.com>"
+    }
+  }
+}
