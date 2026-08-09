@@ -7,7 +7,7 @@
   "author": "Eric Ma",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nll-ai/vault-reader.git"
+    "url": "git+https://github.com/nll-ai/vault-reader.git"
   },
   "keywords": [
     "obsidian",
