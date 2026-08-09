@@ -1,6 +1,6 @@
 {
   "name": "vault-reader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Paginated, EPUB-style web reader for Obsidian vaults. Works on e-ink (Boox) and iPhone.",
   "type": "module",
   "license": "MIT",
