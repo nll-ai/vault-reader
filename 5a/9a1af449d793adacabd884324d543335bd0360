@@ -1,0 +1,33 @@
+LICENSE
+  s_2c7c74184c78f2::t_78953875952a9b 1-21
+package.json
+  s_2c7c74184c78f2::t_ad88be023bfef2 1-41
+README.md
+  s_2c7c74184c78f2::t_69bc91edec2aaf 1-77
+cli.mjs
+  s_2c7c74184c78f2::t_894ed086c6f291 122
+  s_2c7c74184c78f2::t_987e6f7108a306 1-121,123-142
+index.mjs
+  s_2c7c74184c78f2::t_ba6dfaddfedb63 1-5
+vite-plugin.mjs
+  s_2c7c74184c78f2::t_6aa4e5c2041902 6
+  s_2c7c74184c78f2::t_b4d36d343dec45 3-5
+  s_2c7c74184c78f2::t_f10ca1e5731c79 7-9
+  s_2c7c74184c78f2::t_0e298bd8a22376 1-2,10-76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "5a9a1af449d793adacabd884324d543335bd0360",
+  "prompts": {},
+  "sessions": {
+    "s_2c7c74184c78f2": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_01db9ba5bffeQNb6GdfuLMnf01",
+        "model": "glm-5.2"
+      },
+      "human_author": "Eric Ma <ericmajinglong@gmail.com>"
+    }
+  }
+}
