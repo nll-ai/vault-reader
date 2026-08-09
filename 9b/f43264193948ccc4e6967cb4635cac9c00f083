@@ -1,0 +1,16 @@
+package-lock.json
+  h_923f9eef54c2c1 3,9
+package.json
+  h_923f9eef54c2c1 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.21",
+  "base_commit_sha": "9bf43264193948ccc4e6967cb4635cac9c00f083",
+  "prompts": {},
+  "humans": {
+    "h_923f9eef54c2c1": {
+      "author": "Eric Ma <ericmajinglong@gmail.com>"
+    }
+  }
+}
